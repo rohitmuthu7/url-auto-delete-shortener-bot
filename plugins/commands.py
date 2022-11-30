@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_gm')
+                InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_tami')
             ],
             [
                 InlineKeyboardButton('⚡ CHANNEL ⚡', url=f"https://t.me/Gm_team"),
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_gm'),
+            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_tami'),
             InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/Gm_team')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_gm'),
+            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_tami'),
             InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/Gm_team')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('GROUP', url='https://t.me/movie_request_gm') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('GROUP', url='https://t.me/movie_request_tami') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
