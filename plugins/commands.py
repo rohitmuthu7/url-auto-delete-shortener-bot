@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_tami')
+                InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/New_tamil_movier')
             ],
             [
-                InlineKeyboardButton('⚡ CHANNEL ⚡', url=f"https://t.me/Gm_team"),
+                InlineKeyboardButton('⚡ CHANNEL ⚡', url=f"https://t.me/gmteam_offical"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_tami'),
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/Gm_team')
+            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/New_tamil_movier'),
+            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/gmteam_offical')
             ],[
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
