@@ -435,8 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/movie_request_tami'),
-            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/gm_team')
+            InlineKeyboardButton('⚡ GROUP ⚡', url='https://t.me/New_tamil_movier'),
+            InlineKeyboardButton('🤖 CHANNEL 🤖', url='https://t.me/gmteam_offical')
         ], [
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtu.be/vLM7qmfSTNQ')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://youtu.be/m7i2soiOgik')
         ]
     )
 
